@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "target": "ES2015",
+      "module": "CommonJS",
+      "outDir": "../dist",
+      "rootDir": "./",
+      "moduleResolution": "node"
+    },
+    "exclude": ["./node_modules", ".nuxt", "dist"],
+    "include": [
+      "**/*.ts"
+    ]
+  }
